@@ -1,0 +1,129 @@
+/* Content Styles */
+#header {
+  background-color: #001E5A;
+}
+#header .container {
+  display: block;
+  padding: 20px 0px;
+  /* Logo */
+  /* Language and Log In Forms*/
+}
+#header .container .branding {
+  display: inline-block;
+}
+#header .container .forms {
+  float: right;
+  padding: 0px 0px;
+  display: flex;
+  /* Start of Language Dropdown */
+  /* End of Language Dropdown */
+}
+#header .container .forms .dropdown {
+  float: left;
+}
+#header .container .forms .dropdown .dropdown-button {
+  background: none;
+  padding: 0px;
+}
+#header .container .forms .dropdown .dropdown-button img {
+  margin-right: 10px;
+  float: left;
+  padding: 2px 0px;
+}
+#header .container .forms .dropdown .dropdown-button span {
+  margin-right: 10px;
+  float: left;
+  padding: 9px 0px;
+  color: #FFFFFF;
+}
+#header .container .forms .dropdown .dropdown-button .arrow {
+  margin-right: 20px;
+  padding: 15px 0px;
+}
+#header .container .forms .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 60px;
+  margin-left: -20px;
+  background-color: #001E5A;
+  padding: 10px 20px 0px 20px;
+  z-index: 1;
+}
+#header .container .forms .dropdown .dropdown-content a {
+  padding-bottom: 10px;
+  display: block;
+  height: 40px;
+}
+#header .container .forms .dropdown .dropdown-content a img {
+  margin-right: 10px;
+  float: left;
+  padding: 2px 0px;
+}
+#header .container .forms .dropdown .dropdown-content a span {
+  margin-right: 10px;
+  float: left;
+  padding: 9px 0px;
+  color: #FFFFFF;
+}
+#header .container .forms .dropdown .dropdown-content a:hover span {
+  color: #FAA41D;
+}
+#header .container .forms .dropdown:hover .arrow {
+  transform: rotate(180deg);
+}
+#header .container .forms .dropdown:hover .dropdown-content {
+  display: block;
+}
+#header .container .forms input, #header .container .forms button {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+  height: 40px;
+}
+#header .container .forms .login-btn {
+  width: 160px;
+  padding: 0px 10px;
+  color: #505050;
+}
+#header .container .forms .login-btn {
+  padding: 0px 10px;
+  /* background-color: #FF7D00; */
+  background-color: #999999;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+  height: 40px;
+  width: auto;
+  line-height: 40px;
+}
+#header .container .forms .login-btn:hover {
+  /* background: #FAA41D; */
+  background-color: #BBBBBB;
+}
+#header .container .forms .register-btn {
+  padding: 0px 10px;
+  margin-right: 0px;
+  background-color: #999999;
+  background-color: #FF7D00;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+  height: 40px;
+  width: auto;
+  line-height: 40px;
+}
+#header .container .forms .register-btn:hover {
+  /* background-color: #BBBBBB; */
+  background: #FAA41D;
+}

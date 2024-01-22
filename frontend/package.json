@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tsparticles/slim": "^3.1.0",
+    "@tsparticles/vue3": "^3.0.0",
+    "axios": "^1.6.5",
+    "vue": "^3.3.11",
+    "vue-axios": "^3.5.2",
+    "vue-final-modal": "^4.5.3",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}

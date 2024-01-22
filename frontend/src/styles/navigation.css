@@ -1,0 +1,25 @@
+#navigation {
+  background-color: #003C82;
+}
+#navigation .container {
+  padding: 9px 0px;
+}
+#navigation .container ul {
+  margin: 0px 0px 0px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+#navigation .container ul li {
+  display: inline-block;
+  padding-right: 100px;
+}
+#navigation .container ul li a {
+  color: #FFFFFF;
+}
+#navigation .container ul li a:hover {
+  color: #FAA41D;
+}
+#navigation .container ul li .router-link-exact-active,
+#navigation .container ul li .router-link-active {
+  color: #FAA41D;
+  font-weight: bold;
+}

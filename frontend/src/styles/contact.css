@@ -1,0 +1,33 @@
+#contact {
+  background-color: #003C82;
+}
+#contact .container {
+  padding: 15px 0px;
+}
+#contact .container .col-4 {
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+}
+#contact .container .col-4:first-child {
+  margin-left: 0;
+}
+#contact .container .col-4:last-child {
+  margin-right: 0;
+}
+#contact .container .col-4 img {
+  margin-right: 10px;
+}
+#contact .container .col-4 span {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 4px;
+}
+#contact .container .col-4 a {
+  font-weight: normal;
+  color: #FAA41D;
+}
+#contact .container .col-4 a:hover {
+  color: #FAA41D;
+}
